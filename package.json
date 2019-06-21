@@ -1,0 +1,17 @@
+{
+  "name": "docere-config",
+  "version": "1.0.0",
+  "description": "Docere config",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "repository": "https://github.com/ruimdetijd/docere-config.git",
+  "scripts": {
+    "watch": "tsc -w"
+  },
+  "author": "Gijsjan Brouwer",
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "tslib": "^1.10.0",
+    "typescript": "3.1.6"
+  }
+}
