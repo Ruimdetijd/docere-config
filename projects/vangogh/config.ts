@@ -1,3 +1,5 @@
+import { extendConfig } from '../../index';
+
 const config: DocereConfig = {
 	slug: 'vangogh',
 	title: 'Van Gogh Letters',
@@ -16,6 +18,10 @@ const config: DocereConfig = {
 			datatype: EsDataType.text,
 		},
 	],
+	notes: [
+		{ id: 'textualNotes' },
+		{ id: 'editorNotes' },
+	],
 	pages: [],
 	textdata: [
 		{
@@ -23,32 +29,32 @@ const config: DocereConfig = {
 			id: 'person',
 			aside: true,
 			extractor: {
-				selector: 'rs[type="pers"]',
+				selector: 'div[type="translation"] rs[type="pers"]',
 				highlightType: TextDataHighlightType.textcontent,
 				idAttribute: 'key'
 			},
-			title: 'Person'
+			textLayers: ['translation'],
 		}
 	],
 	textlayers: [
 		{
+			active: true,
 			id: 'facsimile',
-			title: 'Facsimile',
 			type: TextLayerType.Facsimile,
 		},
 		{
+			active: true,
 			id: 'original',
-			title: 'Original',
 			type: TextLayerType.TextLayer,
 			selector: 'div[type="original"]',
 		},
 		{
+			active: false,
 			id: 'translation',
-			title: 'Translation',
 			type: TextLayerType.TextLayer,
 			selector: 'div[type="translation"]',
 		}
 	]
 }
 
-export default config
+export default extendConfig(config)

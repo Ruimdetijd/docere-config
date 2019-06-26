@@ -1,3 +1,4 @@
+import { extendConfig } from '../../index';
 const config = {
     slug: 'vangogh',
     title: 'Van Gogh Letters',
@@ -16,6 +17,10 @@ const config = {
             datatype: "text",
         },
     ],
+    notes: [
+        { id: 'textualNotes' },
+        { id: 'editorNotes' },
+    ],
     pages: [],
     textdata: [
         {
@@ -23,31 +28,31 @@ const config = {
             id: 'person',
             aside: true,
             extractor: {
-                selector: 'rs[type="pers"]',
+                selector: 'div[type="translation"] rs[type="pers"]',
                 highlightType: "textcontent",
                 idAttribute: 'key'
             },
-            title: 'Person'
+            textLayers: ['translation'],
         }
     ],
     textlayers: [
         {
+            active: true,
             id: 'facsimile',
-            title: 'Facsimile',
             type: 0,
         },
         {
+            active: true,
             id: 'original',
-            title: 'Original',
             type: 1,
             selector: 'div[type="original"]',
         },
         {
+            active: false,
             id: 'translation',
-            title: 'Translation',
             type: 1,
             selector: 'div[type="translation"]',
         }
     ]
 };
-export default config;
+export default extendConfig(config);

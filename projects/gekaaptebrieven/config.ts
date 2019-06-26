@@ -1,3 +1,5 @@
+import { extendConfig } from '../../index';
+
 const config: DocereConfig = {
 	slug: 'gekaaptebrieven',
 	title: 'Gekaapte brieven',
@@ -76,18 +78,18 @@ const config: DocereConfig = {
 		}
 	],
 	pages: [
-		{ id: 'handleiding', title: 'Handleiding', path: 'handleiding.xml' },
-		{ id: 'achtergrond', title: 'Achtergrond', children: [
-			{ id: 'gekaaptebrieven', title: 'Gekaapte brieven', path: 'over.xml' },
-			{ id: 'transcriptieregels', title: 'Transcriptieregels', path: 'transcriptieregels.xml' },
-			{ id: 'werkwijze', title: 'Werkwijze', path: 'werkwijze.xml' },
+		{ id: 'handleiding' },
+		{ id: 'achtergrond', children: [
+			{ id: 'gekaaptebrieven', title: 'Gekaapte brieven' },
+			{ id: 'transcriptieregels' },
+			{ id: 'werkwijze' },
 		]},
 		{
 			id: 'over', title: 'Over deze editie', children: [
-				{ id: 'links', title: 'Links', path: 'links.xml' },
-				{ id: 'publicaties', title: 'Publicaties', path: 'publicaties.xml' },
-				{ id: 'medewerkers', title: 'Medewerkers', path: 'medewerkers.xml' },
-				{ id: 'contact', title: 'Contact', path: 'contact.xml' },
+				{ id: 'links' },
+				{ id: 'publicaties' },
+				{ id: 'medewerkers' },
+				{ id: 'contact' },
 			]
 		}
 	],
@@ -101,7 +103,6 @@ const config: DocereConfig = {
 				highlightType: TextDataHighlightType.textcontent,
 				idAttribute: 'text'
 			},
-			title: 'Person'
 		}, {
 			color: '#5fb53f',
 			id: 'org',
@@ -135,4 +136,4 @@ const config: DocereConfig = {
 		},
 	]
 }
-export default config
+export default extendConfig(config)

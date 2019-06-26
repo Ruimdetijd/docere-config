@@ -2,9 +2,16 @@ interface DocereConfigData {
 	config: DocereConfig
 	extractFacsimiles?: (doc: XMLDocument) => ExtractedFacsimile[]
 	extractMetadata?: (doc: XMLDocument) => ExtractedMetadata
+	extractNotes?: (doc: XMLDocument) => ExtractedNotes
 	extractTextData?: (doc: XMLDocument, config: DocereConfig) => ExtractedTextData
 	prepareDocument?: (doc: XMLDocument, config: DocereConfig, id?: string) => XMLDocument
 }
+
+interface ExtractedNote {
+	n: string | number
+	el: Element
+}
+type ExtractedNotes = Record<string, ExtractedNote[]>
 
 type ExtractedMetadata = Record<string, boolean | string | string[]>
 type ExtractedTextData = Record<string, TextDataValue[]>
@@ -31,12 +38,10 @@ declare const enum TextDataHighlightType {
 	milestone = "milestone",
 }
 
-interface MetaDataConfig {
+interface MetaDataConfig extends EntityConfig {
 	aside?: boolean
 	datatype?: EsDataType
-	id: string
 	order?: number
-	title?: string
 }
 
 interface TextDataExtractor {
@@ -48,25 +53,33 @@ interface TextDataExtractor {
 interface TextDataConfig extends MetaDataConfig {
 	color: string
 	extractor: TextDataExtractor
+	textLayers?: string[]
 }
 
-interface Page {
+interface EntityConfig {
 	id: string
+	title?: string
+}
+
+interface PageConfig extends EntityConfig {
 	path?: string
-	title: string
-	children?: Page[]
+	children?: PageConfig[]
 }
 
-interface TextLayerConfig {
-	id: string
-	title: string
+interface TextLayerConfig extends EntityConfig {
+	active: boolean
 	type: TextLayerType
 	selector?: string
 }
 
+interface NotesConfig extends EntityConfig {
+
+}
+
 interface DocereConfig {
 	metadata?: MetaDataConfig[]
-	pages?: Page[]
+	notes?: NotesConfig[]
+	pages?: PageConfig[]
 	searchResultCount?: number
 	slug: string
 	textdata?: TextDataConfig[]

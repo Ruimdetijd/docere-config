@@ -1,2 +1,2 @@
-declare const config: DocereConfig;
-export default config;
+declare const _default: DocereConfig;
+export default _default;
