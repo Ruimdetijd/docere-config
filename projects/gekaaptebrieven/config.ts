@@ -23,7 +23,6 @@ const config: DocereConfig = {
 		},
 		{
 			aside: false,
-			datatype: EsDataType.null,
 			id: 'corr',
 		},
 		{

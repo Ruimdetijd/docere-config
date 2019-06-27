@@ -22,7 +22,6 @@ const config = {
         },
         {
             aside: false,
-            datatype: "null",
             id: 'corr',
         },
         {

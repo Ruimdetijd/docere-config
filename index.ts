@@ -49,6 +49,7 @@ export function extendConfig(config: DocereConfig): DocereConfig {
 	config.metadata = config.metadata.map(md => setTitle({...defaultMetadata, ...md}))
 	config.textlayers = config.textlayers.map(setTitle)
 	config.textdata = config.textdata.map(td => {
+		td = {...defaultMetadata, ...td }
 		if (!Array.isArray(td.textLayers)) {
 			td.textLayers = config.textlayers.map(tl => tl.id)
 		}
