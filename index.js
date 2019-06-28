@@ -18,6 +18,12 @@ const defaultConfig = {
             id: 'transcription',
             title: 'Transcription',
             type: 1
+        },
+        {
+            active: false,
+            id: 'tei',
+            title: 'TEI',
+            type: 2
         }
     ]
 };

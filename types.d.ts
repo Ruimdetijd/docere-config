@@ -21,7 +21,7 @@ interface ExtractedFacsimile {
 	path: string
 }
 
-declare const enum TextLayerType { Facsimile, TextLayer }
+declare const enum TextLayerType { Facsimile, TextLayer, XML }
 
 declare const enum EsDataType {
 	boolean = "boolean",

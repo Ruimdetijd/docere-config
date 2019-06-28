@@ -52,6 +52,12 @@ const config = {
             id: 'translation',
             type: 1,
             selector: 'div[type="translation"]',
+        },
+        {
+            active: false,
+            id: 'tei',
+            title: 'TEI',
+            type: 2,
         }
     ]
 };

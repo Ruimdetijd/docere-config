@@ -21,6 +21,12 @@ const defaultConfig: DocereConfig = {
 			id: 'transcription',
 			title: 'Transcription',
 			type: TextLayerType.TextLayer
+		},
+		{
+			active: false,
+			id: 'tei',
+			title: 'TEI',
+			type: TextLayerType.XML
 		}
 	]
 }

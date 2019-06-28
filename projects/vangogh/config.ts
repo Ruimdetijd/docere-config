@@ -53,6 +53,12 @@ const config: DocereConfig = {
 			id: 'translation',
 			type: TextLayerType.TextLayer,
 			selector: 'div[type="translation"]',
+		},
+		{
+			active: false,
+			id: 'tei',
+			title: 'TEI',
+			type: TextLayerType.XML,
 		}
 	]
 }
