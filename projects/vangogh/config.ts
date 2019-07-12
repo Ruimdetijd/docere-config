@@ -43,23 +43,37 @@ const config: DocereConfig = {
 			type: TextLayerType.Facsimile,
 		},
 		{
-			active: true,
+			active: false,
 			id: 'original',
 			type: TextLayerType.TextLayer,
 			selector: 'div[type="original"]',
 		},
 		{
 			active: false,
+			id: 'original-tei',
+			title: 'Original TEI',
+			type: TextLayerType.XML,
+			selector: 'div[type="original"]',
+		},
+		{
+			active: true,
 			id: 'translation',
 			type: TextLayerType.TextLayer,
 			selector: 'div[type="translation"]',
 		},
 		{
 			active: false,
-			id: 'tei',
-			title: 'TEI',
+			id: 'translation-tei',
+			title: 'Translation TEI',
 			type: TextLayerType.XML,
-		}
+			selector: 'div[type="translation"]',
+		},
+		{
+			active: false,
+			id: 'tei',
+			title: 'Full TEI',
+			type: TextLayerType.XML,
+		},
 	]
 }
 

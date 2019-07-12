@@ -8,7 +8,7 @@ const extractFacsimiles: DocereConfigData['extractFacsimiles'] = function extrac
 		.map(pb => {
 			const id = pb.getAttribute(attr)
 			const path = `https://images.huygens.knaw.nl/iiif/${id.slice(0, -4)}.tif/info.json`
-			return { id, path }
+			return { id, path: [path] }
 		})
 }
 

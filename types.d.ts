@@ -18,7 +18,7 @@ type ExtractedTextData = Record<string, TextDataValue[]>
 
 interface ExtractedFacsimile {
 	id: string
-	path: string
+	path: string[]
 }
 
 declare const enum TextLayerType { Facsimile, TextLayer, XML }

@@ -8,7 +8,7 @@ const extractFacsimiles = function extractFacsimiles(doc) {
             return null;
         }
         const path = graphic.getAttribute('url');
-        return { id, path };
+        return { id, path: [path] };
     })
         .filter(facs => facs != null);
 };
