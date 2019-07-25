@@ -23,6 +23,7 @@ interface ExtractedFacsimile {
 
 declare const enum TextLayerType { Facsimile, TextLayer, XML }
 
+// TODO items in enum should be capitalized
 declare const enum EsDataType {
 	boolean = "boolean",
 	date = "date",
