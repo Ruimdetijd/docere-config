@@ -99,7 +99,7 @@ const config: DocereConfig = {
 			aside: true,
 			extractor: {
 				selector: 'ner[type="per"]',
-				highlightType: TextDataHighlightType.textcontent,
+				extractionType: TextDataExtractionType.TextContent,
 				idAttribute: 'text'
 			},
 		}, {
@@ -108,7 +108,7 @@ const config: DocereConfig = {
 			aside: true,
 			extractor: {
 				selector: 'ner[type="org"]',
-				highlightType: TextDataHighlightType.textcontent,
+				extractionType: TextDataExtractionType.TextContent,
 				idAttribute: 'text'
 			},
 			title: 'Organisation'
@@ -118,7 +118,7 @@ const config: DocereConfig = {
 			aside: true,
 			extractor: {
 				selector: 'ner[type="loc"]',
-				highlightType: TextDataHighlightType.textcontent,
+				extractionType: TextDataExtractionType.TextContent,
 				idAttribute: 'text'
 			},
 			title: 'Location'
@@ -128,7 +128,7 @@ const config: DocereConfig = {
 			aside: true,
 			extractor: {
 				selector: 'ner[type="misc"]',
-				highlightType: TextDataHighlightType.textcontent,
+				extractionType: TextDataExtractionType.TextContent,
 				idAttribute: 'text'
 			},
 			title: 'Miscellaneous'

@@ -30,7 +30,7 @@ const config: DocereConfig = {
 			aside: true,
 			extractor: {
 				selector: 'div[type="translation"] rs[type="pers"]',
-				highlightType: TextDataHighlightType.textcontent,
+				extractionType: TextDataExtractionType.TextContent,
 				idAttribute: 'key'
 			},
 			textLayers: ['translation'],

@@ -98,7 +98,7 @@ const config = {
             aside: true,
             extractor: {
                 selector: 'ner[type="per"]',
-                highlightType: "textcontent",
+                extractionType: "textcontent",
                 idAttribute: 'text'
             },
         }, {
@@ -107,7 +107,7 @@ const config = {
             aside: true,
             extractor: {
                 selector: 'ner[type="org"]',
-                highlightType: "textcontent",
+                extractionType: "textcontent",
                 idAttribute: 'text'
             },
             title: 'Organisation'
@@ -117,7 +117,7 @@ const config = {
             aside: true,
             extractor: {
                 selector: 'ner[type="loc"]',
-                highlightType: "textcontent",
+                extractionType: "textcontent",
                 idAttribute: 'text'
             },
             title: 'Location'
@@ -127,7 +127,7 @@ const config = {
             aside: true,
             extractor: {
                 selector: 'ner[type="misc"]',
-                highlightType: "textcontent",
+                extractionType: "textcontent",
                 idAttribute: 'text'
             },
             title: 'Miscellaneous'

@@ -34,20 +34,22 @@ declare const enum EsDataType {
 	text = "text",
 }
 
-declare const enum TextDataHighlightType {
-	textcontent = "textcontent",
-	milestone = "milestone",
+declare const enum TextDataExtractionType {
+	Attribute = "attribute",
+	TextContent = "textcontent",
+	Milestone = "milestone",
 }
 
 interface MetaDataConfig extends EntityConfig {
 	aside?: boolean
 	datatype?: EsDataType
 	order?: number
+	size?: number
 }
 
 interface TextDataExtractor {
 	selector: string
-	highlightType: TextDataHighlightType
+	extractionType: TextDataExtractionType
 	idAttribute: string
 }
 
