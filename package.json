@@ -13,6 +13,6 @@
   "license": "GPL-3.0-or-later",
   "devDependencies": {
     "tslib": "^1.10.0",
-    "typescript": "3.1.6"
+    "typescript": "3.5.3"
   }
 }

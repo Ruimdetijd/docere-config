@@ -1,0 +1,271 @@
+{
+  "program": {
+    "fileInfos": {
+      "/home/gijs/Projects/docere-config/node_modules/typescript/lib/lib.es6.d.ts": {
+        "version": "c180f01a2aaac7d733001fa1db20f881dc83cf33096b674a1546ca26762e69da",
+        "signature": "c180f01a2aaac7d733001fa1db20f881dc83cf33096b674a1546ca26762e69da"
+      },
+      "/home/gijs/Projects/docere-config/node_modules/typescript/lib/lib.es5.d.ts": {
+        "version": "1f753cee573dea40df8a9dc873fef5566957b19ad513874f6643d8dfb14842d0",
+        "signature": "1f753cee573dea40df8a9dc873fef5566957b19ad513874f6643d8dfb14842d0"
+      },
+      "/home/gijs/Projects/docere-config/node_modules/typescript/lib/lib.es2015.d.ts": {
+        "version": "7994d44005046d1413ea31d046577cdda33b8b2470f30281fd9c8b3c99fe2d96",
+        "signature": "7994d44005046d1413ea31d046577cdda33b8b2470f30281fd9c8b3c99fe2d96"
+      },
+      "/home/gijs/Projects/docere-config/node_modules/typescript/lib/lib.dom.d.ts": {
+        "version": "973df4e41aea3780ce77073777d37dd5896f684124f4c42409f3a832133837a4",
+        "signature": "973df4e41aea3780ce77073777d37dd5896f684124f4c42409f3a832133837a4"
+      },
+      "/home/gijs/Projects/docere-config/node_modules/typescript/lib/lib.dom.iterable.d.ts": {
+        "version": "eb843da29336c7d5840bb439b24cf68a4a1652fd01c6e4e66ec74d8b136e944a",
+        "signature": "eb843da29336c7d5840bb439b24cf68a4a1652fd01c6e4e66ec74d8b136e944a"
+      },
+      "/home/gijs/Projects/docere-config/node_modules/typescript/lib/lib.webworker.importscripts.d.ts": {
+        "version": "fe4e59403e34c7ff747abe4ff6abbc7718229556d7c1a5b93473fb53156c913b",
+        "signature": "fe4e59403e34c7ff747abe4ff6abbc7718229556d7c1a5b93473fb53156c913b"
+      },
+      "/home/gijs/Projects/docere-config/node_modules/typescript/lib/lib.scripthost.d.ts": {
+        "version": "b9faa17292f17d2ad75e34fac77dd63a6403af1dba02d39cd0cbb9ffdf3de8b9",
+        "signature": "b9faa17292f17d2ad75e34fac77dd63a6403af1dba02d39cd0cbb9ffdf3de8b9"
+      },
+      "/home/gijs/Projects/docere-config/node_modules/typescript/lib/lib.es2015.core.d.ts": {
+        "version": "2a0390a665763bcc90f0670e43c587928d8fefe2a94a11209c1e22cba7b09f52",
+        "signature": "2a0390a665763bcc90f0670e43c587928d8fefe2a94a11209c1e22cba7b09f52"
+      },
+      "/home/gijs/Projects/docere-config/node_modules/typescript/lib/lib.es2015.collection.d.ts": {
+        "version": "dd94d8ef48c562389eb58af8df3a3a34d11367f7c818192aa5f16470d469e3f0",
+        "signature": "dd94d8ef48c562389eb58af8df3a3a34d11367f7c818192aa5f16470d469e3f0"
+      },
+      "/home/gijs/Projects/docere-config/node_modules/typescript/lib/lib.es2015.generator.d.ts": {
+        "version": "828413486bdcaa342558e8e4570b1b287b776cb61b4b70b0214bd10c5d9a94c3",
+        "signature": "828413486bdcaa342558e8e4570b1b287b776cb61b4b70b0214bd10c5d9a94c3"
+      },
+      "/home/gijs/Projects/docere-config/node_modules/typescript/lib/lib.es2015.iterable.d.ts": {
+        "version": "6c9f73334f8bf47aea685ca5b46a8f7e992a223e96fbceb030f26a4d2324ba21",
+        "signature": "6c9f73334f8bf47aea685ca5b46a8f7e992a223e96fbceb030f26a4d2324ba21"
+      },
+      "/home/gijs/Projects/docere-config/node_modules/typescript/lib/lib.es2015.promise.d.ts": {
+        "version": "e6b8ff2798f8ebd7a1c7afd8671f2cb67ee1901c422f5964d74b0b34c6574ea2",
+        "signature": "e6b8ff2798f8ebd7a1c7afd8671f2cb67ee1901c422f5964d74b0b34c6574ea2"
+      },
+      "/home/gijs/Projects/docere-config/node_modules/typescript/lib/lib.es2015.proxy.d.ts": {
+        "version": "5e72f949a89717db444e3bd9433468890068bb21a5638d8ab15a1359e05e54fe",
+        "signature": "5e72f949a89717db444e3bd9433468890068bb21a5638d8ab15a1359e05e54fe"
+      },
+      "/home/gijs/Projects/docere-config/node_modules/typescript/lib/lib.es2015.reflect.d.ts": {
+        "version": "f5b242136ae9bfb1cc99a5971cccc44e99947ae6b5ef6fd8aa54b5ade553b976",
+        "signature": "f5b242136ae9bfb1cc99a5971cccc44e99947ae6b5ef6fd8aa54b5ade553b976"
+      },
+      "/home/gijs/Projects/docere-config/node_modules/typescript/lib/lib.es2015.symbol.d.ts": {
+        "version": "9ae2860252d6b5f16e2026d8a2c2069db7b2a3295e98b6031d01337b96437230",
+        "signature": "9ae2860252d6b5f16e2026d8a2c2069db7b2a3295e98b6031d01337b96437230"
+      },
+      "/home/gijs/Projects/docere-config/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": {
+        "version": "3e0a459888f32b42138d5a39f706ff2d55d500ab1031e0988b5568b0f67c2303",
+        "signature": "3e0a459888f32b42138d5a39f706ff2d55d500ab1031e0988b5568b0f67c2303"
+      },
+      "/home/gijs/Projects/docere-config/types.d.ts": {
+        "version": "3b8d8939c18f8c9293f84dfc96ae76f049967a2bd27aa23534f1e1333c50506d",
+        "signature": "3b8d8939c18f8c9293f84dfc96ae76f049967a2bd27aa23534f1e1333c50506d"
+      },
+      "/home/gijs/Projects/docere-config/textdata.ts": {
+        "version": "533e2748b6ab6d74f9a52f22c43e3c031606cd0b92d36191140d1c52aeb64ca7",
+        "signature": "2c67a36d01ea707445e843b3e2bd28bc380f3e2c8ea92c602a76bd7b91048158"
+      },
+      "/home/gijs/Projects/docere-config/index.ts": {
+        "version": "db7667ace32ec7f76a7d596282c206af0806c9455a74a1c3c3ae2dd6bfac3a5a",
+        "signature": "6f02ce1e1e3e1eb7c7f58ac661b018d44b4aba739066d6b5df4ac6451a3bc8b6"
+      },
+      "/home/gijs/Projects/docere-config/projects/archimedes-palimpsest/config.ts": {
+        "version": "c3acd7a8d183c839f8a70a0e67ba474120c7fee53f12106b0e036ab7594d16ab",
+        "signature": "1fc08d94eac3bfaa5ea1723de0372893f3640e267eeb06f3d0aafe166b1499db"
+      },
+      "/home/gijs/Projects/docere-config/projects/archimedes-palimpsest/facsimiles.ts": {
+        "version": "9344b0b029b0ec44847ec1fd2f9a46a1e1dbce96328ff5ea9f54a3bc523c3f06",
+        "signature": "936689a18144123b865402d04e7d61ae0a6d97e1d95189c134b757f489d6a1c9"
+      },
+      "/home/gijs/Projects/docere-config/projects/archimedes-palimpsest/index.ts": {
+        "version": "19067e12f8ace8f9c4d3bc2fa7e639f8bfa4afa3df3637a11fd8852cea0305c4",
+        "signature": "249ffb0ece3fee1c928fc7919d767e7ab1420a5342cb6a0b2151b8df52c5dac8"
+      },
+      "/home/gijs/Projects/docere-config/projects/gekaaptebrieven/config.ts": {
+        "version": "6d294aed737095e4c6c4284706704f6579a309d198c0a38e89ea9d68c4ca407b",
+        "signature": "1fc08d94eac3bfaa5ea1723de0372893f3640e267eeb06f3d0aafe166b1499db"
+      },
+      "/home/gijs/Projects/docere-config/projects/gekaaptebrieven/facsimiles.ts": {
+        "version": "4c9cbe92789f7e04430d9c16bd245cda69742a430e5c908a50f3d3a3fcec44da",
+        "signature": "936689a18144123b865402d04e7d61ae0a6d97e1d95189c134b757f489d6a1c9"
+      },
+      "/home/gijs/Projects/docere-config/projects/gekaaptebrieven/metadata.ts": {
+        "version": "e67c048affda695a80464e6047893d9ff350c6b801639f5bf452bd24cfb53fac",
+        "signature": "075bd9993c0205614e8cee7f108528c6d9947f9d3b7b15a1b3e2729afdc631fc"
+      },
+      "/home/gijs/Projects/docere-config/projects/gekaaptebrieven/prepare.ts": {
+        "version": "c9c31e5ff130dfcf28653b2eb03f8b44567b14569ea364f0c3a885fc484f8845",
+        "signature": "13594c5161c513d7037bf103009f3e765d8bf9ab7b8c5b4a11a867ee93d98652"
+      },
+      "/home/gijs/Projects/docere-config/projects/gekaaptebrieven/index.ts": {
+        "version": "76cef31d00ee34d355c1baf560e1215dbab373c6d8ed33533a0ce3d2aa6d1072",
+        "signature": "249ffb0ece3fee1c928fc7919d767e7ab1420a5342cb6a0b2151b8df52c5dac8"
+      },
+      "/home/gijs/Projects/docere-config/projects/kranten1700/config.ts": {
+        "version": "b357e40efa3d54c60d19f75600056c99ba7c6ea3214ddca710f5f0d43fb81317",
+        "signature": "1fc08d94eac3bfaa5ea1723de0372893f3640e267eeb06f3d0aafe166b1499db"
+      },
+      "/home/gijs/Projects/docere-config/projects/kranten1700/metadata.ts": {
+        "version": "f726810008f905f66708d91fe68c8ca54e497cb8acec14bd383cc1da193da273",
+        "signature": "075bd9993c0205614e8cee7f108528c6d9947f9d3b7b15a1b3e2729afdc631fc"
+      },
+      "/home/gijs/Projects/docere-config/projects/kranten1700/prepare.ts": {
+        "version": "a7208b36caf8a85fbeade7238f820b0c9db399ab6c337d3edc7fc437f5393988",
+        "signature": "13594c5161c513d7037bf103009f3e765d8bf9ab7b8c5b4a11a867ee93d98652"
+      },
+      "/home/gijs/Projects/docere-config/projects/kranten1700/index.ts": {
+        "version": "fa1cce26e61e8835ebfe22e0aadaa38f5b127baddb3580e3013898696e476f89",
+        "signature": "249ffb0ece3fee1c928fc7919d767e7ab1420a5342cb6a0b2151b8df52c5dac8"
+      },
+      "/home/gijs/Projects/docere-config/projects/ode/config.ts": {
+        "version": "e7104f05eb297cab1506dbda0b165d8c032ba4e2a5fed42d7cde567a30736cf6",
+        "signature": "1fc08d94eac3bfaa5ea1723de0372893f3640e267eeb06f3d0aafe166b1499db"
+      },
+      "/home/gijs/Projects/docere-config/projects/ode/facsimiles.ts": {
+        "version": "9a540af89478293022c0323c9f015795cc4ac03b38c729b0b5715eab0e30495e",
+        "signature": "936689a18144123b865402d04e7d61ae0a6d97e1d95189c134b757f489d6a1c9"
+      },
+      "/home/gijs/Projects/docere-config/projects/ode/metadata.ts": {
+        "version": "6d1e0da32611c7c59743acd89a29e15c1e9489fd8d5f6b02e69ad9a28d8efaff",
+        "signature": "075bd9993c0205614e8cee7f108528c6d9947f9d3b7b15a1b3e2729afdc631fc"
+      },
+      "/home/gijs/Projects/docere-config/projects/ode/index.ts": {
+        "version": "2e6916593fb2ab2154db315f6273afbe9128e099c1f2e11dd1d59e4996daeaa1",
+        "signature": "249ffb0ece3fee1c928fc7919d767e7ab1420a5342cb6a0b2151b8df52c5dac8"
+      },
+      "/home/gijs/Projects/docere-config/projects/vangogh/config.ts": {
+        "version": "630c324d51f12e658ce3f529262033b1bc6d51bb17a92b65c642245d47bdc959",
+        "signature": "1fc08d94eac3bfaa5ea1723de0372893f3640e267eeb06f3d0aafe166b1499db"
+      },
+      "/home/gijs/Projects/docere-config/projects/vangogh/facsimiles.ts": {
+        "version": "f49639c75bc3be44522feb8928b71bc83b364bfdc226134f69185844001f5fec",
+        "signature": "936689a18144123b865402d04e7d61ae0a6d97e1d95189c134b757f489d6a1c9"
+      },
+      "/home/gijs/Projects/docere-config/projects/vangogh/metadata.ts": {
+        "version": "156e77fb3a316e3d08e4c243771701de87cd35485be3ac7a41c2646b1dbcb031",
+        "signature": "075bd9993c0205614e8cee7f108528c6d9947f9d3b7b15a1b3e2729afdc631fc"
+      },
+      "/home/gijs/Projects/docere-config/projects/vangogh/notes.ts": {
+        "version": "280f6e3e2b94f1f5b337820c3ba1f737024132c2760f544ff1f248e7407288b9",
+        "signature": "e959da68273725cb3492064c8050242b8ea78f8f977353b0b364654f2422ca60"
+      },
+      "/home/gijs/Projects/docere-config/projects/vangogh/index.ts": {
+        "version": "63ef50c41393d11fd5f09fd010f3524ce9e51ff8b2314db48c08beaabad8c8e1",
+        "signature": "249ffb0ece3fee1c928fc7919d767e7ab1420a5342cb6a0b2151b8df52c5dac8"
+      }
+    },
+    "options": {
+      "baseUrl": "/home/gijs/Projects/docere-config",
+      "declaration": true,
+      "incremental": true,
+      "importHelpers": true,
+      "module": 5,
+      "noImplicitAny": true,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "removeComments": true,
+      "target": 2,
+      "watch": true,
+      "configFilePath": "/home/gijs/Projects/docere-config/tsconfig.json"
+    },
+    "referencedMap": {
+      "/home/gijs/Projects/docere-config/index.ts": [
+        "/home/gijs/Projects/docere-config/textdata.ts",
+        "/home/gijs/Projects/docere-config/types.d.ts"
+      ],
+      "/home/gijs/Projects/docere-config/projects/archimedes-palimpsest/config.ts": [
+        "/home/gijs/Projects/docere-config/index.ts"
+      ],
+      "/home/gijs/Projects/docere-config/projects/archimedes-palimpsest/index.ts": [
+        "/home/gijs/Projects/docere-config/projects/archimedes-palimpsest/config.ts",
+        "/home/gijs/Projects/docere-config/projects/archimedes-palimpsest/facsimiles.ts"
+      ],
+      "/home/gijs/Projects/docere-config/projects/gekaaptebrieven/config.ts": [
+        "/home/gijs/Projects/docere-config/index.ts"
+      ],
+      "/home/gijs/Projects/docere-config/projects/gekaaptebrieven/index.ts": [
+        "/home/gijs/Projects/docere-config/projects/gekaaptebrieven/config.ts",
+        "/home/gijs/Projects/docere-config/projects/gekaaptebrieven/metadata.ts",
+        "/home/gijs/Projects/docere-config/projects/gekaaptebrieven/facsimiles.ts",
+        "/home/gijs/Projects/docere-config/projects/gekaaptebrieven/prepare.ts"
+      ],
+      "/home/gijs/Projects/docere-config/projects/kranten1700/config.ts": [
+        "/home/gijs/Projects/docere-config/index.ts"
+      ],
+      "/home/gijs/Projects/docere-config/projects/kranten1700/index.ts": [
+        "/home/gijs/Projects/docere-config/projects/kranten1700/config.ts",
+        "/home/gijs/Projects/docere-config/projects/kranten1700/metadata.ts",
+        "/home/gijs/Projects/docere-config/projects/kranten1700/prepare.ts"
+      ],
+      "/home/gijs/Projects/docere-config/projects/ode/config.ts": [
+        "/home/gijs/Projects/docere-config/index.ts"
+      ],
+      "/home/gijs/Projects/docere-config/projects/ode/index.ts": [
+        "/home/gijs/Projects/docere-config/projects/ode/config.ts",
+        "/home/gijs/Projects/docere-config/projects/ode/facsimiles.ts",
+        "/home/gijs/Projects/docere-config/projects/ode/metadata.ts"
+      ],
+      "/home/gijs/Projects/docere-config/projects/vangogh/config.ts": [
+        "/home/gijs/Projects/docere-config/index.ts"
+      ],
+      "/home/gijs/Projects/docere-config/projects/vangogh/index.ts": [
+        "/home/gijs/Projects/docere-config/projects/vangogh/config.ts",
+        "/home/gijs/Projects/docere-config/projects/vangogh/metadata.ts",
+        "/home/gijs/Projects/docere-config/projects/vangogh/notes.ts",
+        "/home/gijs/Projects/docere-config/projects/vangogh/facsimiles.ts"
+      ]
+    },
+    "exportedModulesMap": {},
+    "semanticDiagnosticsPerFile": [
+      "/home/gijs/Projects/docere-config/node_modules/typescript/lib/lib.es6.d.ts",
+      "/home/gijs/Projects/docere-config/node_modules/typescript/lib/lib.es5.d.ts",
+      "/home/gijs/Projects/docere-config/node_modules/typescript/lib/lib.es2015.d.ts",
+      "/home/gijs/Projects/docere-config/node_modules/typescript/lib/lib.dom.d.ts",
+      "/home/gijs/Projects/docere-config/node_modules/typescript/lib/lib.dom.iterable.d.ts",
+      "/home/gijs/Projects/docere-config/node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
+      "/home/gijs/Projects/docere-config/node_modules/typescript/lib/lib.scripthost.d.ts",
+      "/home/gijs/Projects/docere-config/node_modules/typescript/lib/lib.es2015.core.d.ts",
+      "/home/gijs/Projects/docere-config/node_modules/typescript/lib/lib.es2015.collection.d.ts",
+      "/home/gijs/Projects/docere-config/node_modules/typescript/lib/lib.es2015.generator.d.ts",
+      "/home/gijs/Projects/docere-config/node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+      "/home/gijs/Projects/docere-config/node_modules/typescript/lib/lib.es2015.promise.d.ts",
+      "/home/gijs/Projects/docere-config/node_modules/typescript/lib/lib.es2015.proxy.d.ts",
+      "/home/gijs/Projects/docere-config/node_modules/typescript/lib/lib.es2015.reflect.d.ts",
+      "/home/gijs/Projects/docere-config/node_modules/typescript/lib/lib.es2015.symbol.d.ts",
+      "/home/gijs/Projects/docere-config/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+      "/home/gijs/Projects/docere-config/types.d.ts",
+      "/home/gijs/Projects/docere-config/textdata.ts",
+      "/home/gijs/Projects/docere-config/index.ts",
+      "/home/gijs/Projects/docere-config/projects/archimedes-palimpsest/config.ts",
+      "/home/gijs/Projects/docere-config/projects/archimedes-palimpsest/facsimiles.ts",
+      "/home/gijs/Projects/docere-config/projects/archimedes-palimpsest/index.ts",
+      "/home/gijs/Projects/docere-config/projects/gekaaptebrieven/config.ts",
+      "/home/gijs/Projects/docere-config/projects/gekaaptebrieven/facsimiles.ts",
+      "/home/gijs/Projects/docere-config/projects/gekaaptebrieven/metadata.ts",
+      "/home/gijs/Projects/docere-config/projects/gekaaptebrieven/prepare.ts",
+      "/home/gijs/Projects/docere-config/projects/gekaaptebrieven/index.ts",
+      "/home/gijs/Projects/docere-config/projects/kranten1700/config.ts",
+      "/home/gijs/Projects/docere-config/projects/kranten1700/metadata.ts",
+      "/home/gijs/Projects/docere-config/projects/kranten1700/prepare.ts",
+      "/home/gijs/Projects/docere-config/projects/kranten1700/index.ts",
+      "/home/gijs/Projects/docere-config/projects/ode/config.ts",
+      "/home/gijs/Projects/docere-config/projects/ode/facsimiles.ts",
+      "/home/gijs/Projects/docere-config/projects/ode/metadata.ts",
+      "/home/gijs/Projects/docere-config/projects/ode/index.ts",
+      "/home/gijs/Projects/docere-config/projects/vangogh/config.ts",
+      "/home/gijs/Projects/docere-config/projects/vangogh/facsimiles.ts",
+      "/home/gijs/Projects/docere-config/projects/vangogh/metadata.ts",
+      "/home/gijs/Projects/docere-config/projects/vangogh/notes.ts",
+      "/home/gijs/Projects/docere-config/projects/vangogh/index.ts"
+    ]
+  },
+  "version": "3.5.3"
+}

@@ -2,6 +2,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "declaration": true,
+    "incremental": true,
     "importHelpers": true,
     "module": "es2015",
     "noImplicitAny": true,

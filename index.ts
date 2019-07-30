@@ -38,7 +38,7 @@ export const defaultMetadata: MetaDataConfig = {
 	order: 9999,
 }
 
-function setTitle<T extends EntityConfig>(entityConfig: T) {
+function setTitle<T extends EntityConfig>(entityConfig: T): T {
 	if (entityConfig.title == null) {
 		entityConfig.title = entityConfig.id.charAt(0).toUpperCase() + entityConfig.id.slice(1)
 	}
@@ -52,8 +52,9 @@ function setPath(page: PageConfig) {
 
 export function extendConfig(config: DocereConfig): DocereConfig {
 	config = {...defaultConfig, ...config}
-	config.metadata = config.metadata.map(md => setTitle({...defaultMetadata, ...md}))
 	config.textlayers = config.textlayers.map(setTitle)
+
+	config.metadata = config.metadata.map(md => setTitle({...defaultMetadata, ...md}))
 	config.textdata = config.textdata.map(td => {
 		td = {...defaultMetadata, ...td }
 		if (!Array.isArray(td.textLayers)) {
@@ -61,6 +62,7 @@ export function extendConfig(config: DocereConfig): DocereConfig {
 		}
 		return setTitle(td)
 	})
+
 	config.notes = config.notes.map(setTitle)
 	config.pages = config.pages.map(page => {
 		if (Array.isArray(page.children)) {

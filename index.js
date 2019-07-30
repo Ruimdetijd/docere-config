@@ -46,8 +46,8 @@ function setPath(page) {
 }
 export function extendConfig(config) {
     config = Object.assign({}, defaultConfig, config);
-    config.metadata = config.metadata.map(md => setTitle(Object.assign({}, defaultMetadata, md)));
     config.textlayers = config.textlayers.map(setTitle);
+    config.metadata = config.metadata.map(md => setTitle(Object.assign({}, defaultMetadata, md)));
     config.textdata = config.textdata.map(td => {
         td = Object.assign({}, defaultMetadata, td);
         if (!Array.isArray(td.textLayers)) {
