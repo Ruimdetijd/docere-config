@@ -118,7 +118,7 @@
         "signature": "075bd9993c0205614e8cee7f108528c6d9947f9d3b7b15a1b3e2729afdc631fc"
       },
       "/home/gijs/Projects/docere-config/projects/kranten1700/prepare.ts": {
-        "version": "a7208b36caf8a85fbeade7238f820b0c9db399ab6c337d3edc7fc437f5393988",
+        "version": "59319c852949b7670ad2179084fa6ae4a5e97974651eaec7241bb0a370b90a0d",
         "signature": "13594c5161c513d7037bf103009f3e765d8bf9ab7b8c5b4a11a867ee93d98652"
       },
       "/home/gijs/Projects/docere-config/projects/kranten1700/index.ts": {
@@ -249,7 +249,6 @@
       "/home/gijs/Projects/docere-config/projects/archimedes-palimpsest/index.ts",
       "/home/gijs/Projects/docere-config/projects/gekaaptebrieven/config.ts",
       "/home/gijs/Projects/docere-config/projects/gekaaptebrieven/facsimiles.ts",
-      "/home/gijs/Projects/docere-config/projects/gekaaptebrieven/metadata.ts",
       "/home/gijs/Projects/docere-config/projects/gekaaptebrieven/prepare.ts",
       "/home/gijs/Projects/docere-config/projects/gekaaptebrieven/index.ts",
       "/home/gijs/Projects/docere-config/projects/kranten1700/config.ts",
@@ -264,7 +263,8 @@
       "/home/gijs/Projects/docere-config/projects/vangogh/facsimiles.ts",
       "/home/gijs/Projects/docere-config/projects/vangogh/metadata.ts",
       "/home/gijs/Projects/docere-config/projects/vangogh/notes.ts",
-      "/home/gijs/Projects/docere-config/projects/vangogh/index.ts"
+      "/home/gijs/Projects/docere-config/projects/vangogh/index.ts",
+      "/home/gijs/Projects/docere-config/projects/gekaaptebrieven/metadata.ts"
     ]
   },
   "version": "3.5.3"

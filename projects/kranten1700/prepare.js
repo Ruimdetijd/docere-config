@@ -8,6 +8,7 @@ const prepareDocument = function prepareDocument(doc) {
         el.id = el.getAttribute('xml:id');
         el.innerHTML = '';
     });
+    doc.querySelectorAll('head > t').forEach(t => t.parentElement.removeChild(t));
     doc.querySelectorAll('p > t').forEach(t => t.parentElement.removeChild(t));
     doc.querySelectorAll('entity > wref').forEach(wref => {
         const rs = doc.createElement('rs');
