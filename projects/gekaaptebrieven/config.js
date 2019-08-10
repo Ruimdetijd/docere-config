@@ -99,7 +99,6 @@ const config = {
             extractor: {
                 selector: 'ner[type="per"]',
                 extractionType: "textcontent",
-                idAttribute: 'text'
             },
         }, {
             color: '#5fb53f',
@@ -108,7 +107,6 @@ const config = {
             extractor: {
                 selector: 'ner[type="org"]',
                 extractionType: "textcontent",
-                idAttribute: 'text'
             },
             title: 'Organisation'
         }, {
@@ -118,7 +116,6 @@ const config = {
             extractor: {
                 selector: 'ner[type="loc"]',
                 extractionType: "textcontent",
-                idAttribute: 'text'
             },
             title: 'Location'
         }, {
@@ -128,7 +125,6 @@ const config = {
             extractor: {
                 selector: 'ner[type="misc"]',
                 extractionType: "textcontent",
-                idAttribute: 'text'
             },
             title: 'Miscellaneous'
         },

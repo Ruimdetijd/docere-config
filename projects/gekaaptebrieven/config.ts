@@ -100,7 +100,6 @@ const config: DocereConfig = {
 			extractor: {
 				selector: 'ner[type="per"]',
 				extractionType: TextDataExtractionType.TextContent,
-				idAttribute: 'text'
 			},
 		}, {
 			color: '#5fb53f',
@@ -109,7 +108,6 @@ const config: DocereConfig = {
 			extractor: {
 				selector: 'ner[type="org"]',
 				extractionType: TextDataExtractionType.TextContent,
-				idAttribute: 'text'
 			},
 			title: 'Organisation'
 		}, {
@@ -119,7 +117,6 @@ const config: DocereConfig = {
 			extractor: {
 				selector: 'ner[type="loc"]',
 				extractionType: TextDataExtractionType.TextContent,
-				idAttribute: 'text'
 			},
 			title: 'Location'
 		}, {
@@ -129,7 +126,6 @@ const config: DocereConfig = {
 			extractor: {
 				selector: 'ner[type="misc"]',
 				extractionType: TextDataExtractionType.TextContent,
-				idAttribute: 'text'
 			},
 			title: 'Miscellaneous'
 		},
