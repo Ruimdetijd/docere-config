@@ -50,7 +50,7 @@ interface MetaDataConfig extends EntityConfig {
 interface TextDataExtractor {
 	selector: string
 	extractionType: TextDataExtractionType
-	idAttribute: string
+	idAttribute?: string
 }
 
 interface TextDataConfig extends MetaDataConfig {
