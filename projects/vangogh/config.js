@@ -29,8 +29,8 @@ const config = {
             aside: true,
             extractor: {
                 selector: 'div[type="translation"] rs[type="pers"]',
-                extractionType: "textcontent",
-                idAttribute: 'key'
+                extractionType: "attribute",
+                idAttribute: '_key'
             },
             textLayers: ['translation'],
         }
