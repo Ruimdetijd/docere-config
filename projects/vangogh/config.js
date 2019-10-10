@@ -1,4 +1,3 @@
-import { extendConfig } from '../../index';
 const config = {
     slug: 'vangogh',
     title: 'Van Gogh Letters',
@@ -30,7 +29,7 @@ const config = {
             extractor: {
                 selector: 'div[type="translation"] rs[type="pers"]',
                 extractionType: "attribute",
-                idAttribute: '_key'
+                idAttribute: 'key'
             },
             textLayers: ['translation'],
         }
@@ -75,4 +74,4 @@ const config = {
         },
     ]
 };
-export default extendConfig(config);
+export default config;

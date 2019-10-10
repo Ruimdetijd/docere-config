@@ -1,4 +1,3 @@
-import { extendConfig } from '../../index';
 const config = {
     slug: 'ode',
     title: 'Oralia Diacrónica del Español',
@@ -12,4 +11,4 @@ const config = {
     pages: [],
     textdata: [],
 };
-export default extendConfig(config);
+export default config;

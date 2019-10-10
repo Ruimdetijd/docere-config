@@ -2,12 +2,15 @@ import config from './config'
 import extractMetadata from './metadata'
 import extractFacsimiles from './facsimiles'
 import prepareDocument from './prepare'
+import getComponents from './components'
+import { extendConfigData } from 'docere'
 
-const docereConfigData: DocereConfigData = {
+const docereConfigDataRaw: DocereConfigDataRaw = {
 	config,
+	getComponents,
 	extractMetadata,
 	extractFacsimiles,
 	prepareDocument
 }
 
-export default docereConfigData
+export default extendConfigData(docereConfigDataRaw)

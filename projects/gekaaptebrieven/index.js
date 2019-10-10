@@ -2,10 +2,13 @@ import config from './config';
 import extractMetadata from './metadata';
 import extractFacsimiles from './facsimiles';
 import prepareDocument from './prepare';
-const docereConfigData = {
+import getComponents from './components';
+import { extendConfigData } from 'docere';
+const docereConfigDataRaw = {
     config,
+    getComponents,
     extractMetadata,
     extractFacsimiles,
     prepareDocument
 };
-export default docereConfigData;
+export default extendConfigData(docereConfigDataRaw);

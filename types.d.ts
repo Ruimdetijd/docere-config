@@ -1,97 +1,112 @@
-interface DocereConfigData {
-	config: DocereConfig
-	extractFacsimiles?: (doc: XMLDocument) => ExtractedFacsimile[]
-	extractMetadata?: (doc: XMLDocument) => ExtractedMetadata
-	extractNotes?: (doc: XMLDocument) => ExtractedNotes
-	extractTextData?: (doc: XMLDocument, config: DocereConfig) => ExtractedTextData
-	prepareDocument?: (doc: XMLDocument, config: DocereConfig, id?: string) => XMLDocument
-}
+// type DocereComponents = any
+// interface DocereConfigDataRaw {
+// 	getComponents?: (config: DocereConfig) => DocereComponents
+// 	config?: DocereConfig
+// 	extractFacsimiles?: (doc: XMLDocument) => ExtractedFacsimile[]
+// 	extractMetadata?: (doc: XMLDocument) => ExtractedMetadata
+// 	extractNotes?: (doc: XMLDocument) => ExtractedNotes
+// 	extractTextData?: (doc: XMLDocument, config: DocereConfig) => ExtractedTextData
+// 	extractTextLayers?: (doc: XMLDocument, config: DocereConfig) => ExtractedTextLayers
+// 	prepareDocument?: (doc: XMLDocument, config: DocereConfig, id?: string) => XMLDocument
+// }
 
-interface ExtractedNote {
-	n: string | number
-	el: Element
-}
-type ExtractedNotes = Record<string, ExtractedNote[]>
+// interface DocereConfigData {
+// 	components: DocereComponents
+// 	config: DocereConfig
+// 	extractFacsimiles: DocereConfigDataRaw['extractFacsimiles']
+// 	extractMetadata: DocereConfigDataRaw['extractMetadata']
+// 	extractNotes: DocereConfigDataRaw['extractNotes']
+// 	extractTextData: DocereConfigDataRaw['extractTextData']
+// 	extractTextLayers: DocereConfigDataRaw['extractTextLayers']
+// 	prepareDocument: DocereConfigDataRaw['prepareDocument']
+// }
 
-type ExtractedMetadata = Record<string, boolean | string | string[]>
-type ExtractedTextData = Record<string, TextDataValue[]>
+// interface ExtractedNote {
+// 	n: string | number
+// 	el: Element
+// }
+// type ExtractedNotes = Record<string, ExtractedNote[]>
 
-interface ExtractedFacsimile {
-	id: string
-	path: string[]
-}
+// type ExtractedMetadata = Record<string, boolean | string | string[]>
+// type ExtractedTextData = Record<string, TextDataValue[]>
+// type ExtractedTextLayers = Record<string, Element>
 
-declare const enum TextLayerType { Facsimile, TextLayer, XML }
+// interface ExtractedFacsimile {
+// 	id: string
+// 	path: string[]
+// }
 
-// TODO items in enum should be capitalized
-declare const enum EsDataType {
-	boolean = "boolean",
-	date = "date",
-	geo_point = "geo_point",
-	integer = "integer",
-	keyword = "keyword",
-	null = "null",
-	text = "text",
-}
+// declare const enum TextLayerType { Facsimile, TextLayer, XML }
 
-declare const enum TextDataExtractionType {
-	Attribute = "attribute",
-	TextContent = "textcontent",
-	Milestone = "milestone",
-}
+// // TODO items in enum should be capitalized
+// declare const enum EsDataType {
+// 	boolean = "boolean",
+// 	date = "date",
+// 	geo_point = "geo_point",
+// 	integer = "integer",
+// 	keyword = "keyword",
+// 	null = "null",
+// 	text = "text",
+// }
 
-interface MetaDataConfig extends EntityConfig {
-	aside?: boolean
-	datatype?: EsDataType
-	order?: number
-	size?: number
-}
+// declare const enum TextDataExtractionType {
+// 	Attribute = "attribute",
+// 	TextContent = "textcontent",
+// 	Milestone = "milestone",
+// }
 
-interface TextDataExtractor {
-	selector: string
-	extractionType: TextDataExtractionType
-	idAttribute?: string
-}
+// interface MetaDataConfig extends EntityConfig {
+// 	aside?: boolean
+// 	datatype?: EsDataType
+// 	order?: number
+// 	size?: number
+// }
 
-interface TextDataConfig extends MetaDataConfig {
-	color: string
-	extractor: TextDataExtractor
-	textLayers?: string[]
-}
+// interface TextDataExtractor {
+// 	selector: string
+// 	extractionType: TextDataExtractionType
+// 	idAttribute?: string
+// }
 
-interface EntityConfig {
-	id: string
-	title?: string
-}
+// interface TextDataConfig extends MetaDataConfig {
+// 	color: string
+// 	extractor: TextDataExtractor
+// 	textLayers?: string[]
+// }
 
-interface PageConfig extends EntityConfig {
-	path?: string
-	children?: PageConfig[]
-}
+// interface EntityConfig {
+// 	id: string
+// 	title?: string
+// }
 
-interface TextLayerConfig extends EntityConfig {
-	active: boolean
-	type: TextLayerType
-	selector?: string
-}
+// interface PageConfig extends EntityConfig {
+// 	path?: string
+// 	children?: PageConfig[]
+// }
 
-interface NotesConfig extends EntityConfig {
+// interface TextLayerConfig extends EntityConfig {
+// 	active: boolean
+// 	type: TextLayerType
+// 	selector?: string
+// }
 
-}
+// interface NotesConfig extends EntityConfig {
 
-interface DocereConfig {
-	metadata?: MetaDataConfig[]
-	notes?: NotesConfig[]
-	pages?: PageConfig[]
-	searchResultCount?: number
-	slug: string
-	textdata?: TextDataConfig[]
-	textlayers?: TextLayerConfig[]
-	title: string
-}
+// }
 
-interface TextDataValue {
-	count: number
-	key: string
-	value: string
-}
+// interface DocereConfig {
+// 	metadata?: MetaDataConfig[]
+// 	notes?: NotesConfig[]
+// 	pages?: PageConfig[]
+// 	searchResultCount?: number
+// 	slug: string
+// 	textdata?: TextDataConfig[]
+// 	textlayers?: TextLayerConfig[]
+// 	title: string
+// }
+
+// interface TextDataValue {
+// 	count: number
+// 	key: string
+// 	value: string
+// }

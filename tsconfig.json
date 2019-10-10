@@ -4,6 +4,8 @@
     "declaration": true,
     "incremental": true,
     "importHelpers": true,
+    "jsx": "react",
+    "moduleResolution": "node",
     "module": "es2015",
     "noImplicitAny": true,
     "noUnusedLocals": true,
@@ -12,6 +14,6 @@
     "target": "es6"
   },
   "exclude": ["node_modules"],
-  "include": ["types.d.ts", "*.ts", "projects/**/*.ts"]
+  "include": ["types.d.ts", "*.ts", "projects/**/*.tsx", "projects/**/*.ts"]
 }
 

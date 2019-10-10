@@ -1,5 +1,3 @@
-import { extendConfig } from '../../index';
-
 const config: DocereConfig = {
 	slug: 'archimedes-palimpsest',
 	title: 'Archimedes Palimpsest',
@@ -9,4 +7,4 @@ const config: DocereConfig = {
 	textdata: [],
 }
 
-export default extendConfig(config)
+export default config

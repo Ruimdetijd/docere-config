@@ -1,5 +1,3 @@
-import { extendConfig } from '../../index';
-
 const config: DocereConfig = {
 	slug: 'vangogh',
 	title: 'Van Gogh Letters',
@@ -31,7 +29,7 @@ const config: DocereConfig = {
 			extractor: {
 				selector: 'div[type="translation"] rs[type="pers"]',
 				extractionType: TextDataExtractionType.Attribute,
-				idAttribute: '_key'
+				idAttribute: 'key'
 			},
 			textLayers: ['translation'],
 		}
@@ -77,4 +75,4 @@ const config: DocereConfig = {
 	]
 }
 
-export default extendConfig(config)
+export default config

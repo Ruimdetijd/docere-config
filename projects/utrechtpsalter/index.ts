@@ -1,12 +1,10 @@
 import config from './config'
-import extractFacsimiles from './facsimiles'
-import extractMetadata from './metadata'
+import extractTextLayers from './textlayers'
 import { extendConfigData } from 'docere'
 
 const docereConfigDataRaw: DocereConfigDataRaw = {
 	config,
-	extractFacsimiles,
-	extractMetadata,
+	extractTextLayers
 }
 
 export default extendConfigData(docereConfigDataRaw)

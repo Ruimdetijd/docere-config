@@ -1,4 +1,3 @@
-import { extendConfig } from '../../index';
 const config = {
     slug: 'archimedes-palimpsest',
     title: 'Archimedes Palimpsest',
@@ -7,4 +6,4 @@ const config = {
     pages: [],
     textdata: [],
 };
-export default extendConfig(config);
+export default config;

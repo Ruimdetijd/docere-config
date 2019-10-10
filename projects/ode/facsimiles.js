@@ -5,7 +5,7 @@ const extractFacsimiles = function extractFacsimiles(doc) {
         if (fileName == null)
             return null;
         const path = `http://localhost:5004/ode/${fileName.toLowerCase()}/info.json`;
-        return { id: path, path: [path] };
+        return { id: fileName, path: [path] };
     })
         .filter(ef => ef != null);
 };

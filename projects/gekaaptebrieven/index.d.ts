@@ -1,2 +1,2 @@
-declare const docereConfigData: DocereConfigData;
-export default docereConfigData;
+declare const _default: DocereConfigData;
+export default _default;

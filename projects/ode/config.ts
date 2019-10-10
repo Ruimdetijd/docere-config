@@ -1,5 +1,3 @@
-import { extendConfig } from '../../index'
-
 const config: DocereConfig = {
 	slug: 'ode',
 	title: 'Oralia Diacrónica del Español',
@@ -14,4 +12,4 @@ const config: DocereConfig = {
 	textdata: [],
 }
 
-export default extendConfig(config)
+export default config

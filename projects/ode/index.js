@@ -1,9 +1,10 @@
 import config from './config';
 import extractFacsimiles from './facsimiles';
 import extractMetadata from './metadata';
-const docereConfigData = {
+import { extendConfigData } from 'docere';
+const docereConfigDataRaw = {
     config,
     extractFacsimiles,
     extractMetadata,
 };
-export default docereConfigData;
+export default extendConfigData(docereConfigDataRaw);

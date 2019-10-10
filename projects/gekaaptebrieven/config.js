@@ -1,4 +1,3 @@
-import { extendConfig } from '../../index';
 const config = {
     slug: 'gekaaptebrieven',
     title: 'Gekaapte brieven',
@@ -130,4 +129,4 @@ const config = {
         },
     ]
 };
-export default extendConfig(config);
+export default config;

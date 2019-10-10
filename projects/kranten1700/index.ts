@@ -1,11 +1,12 @@
 import config from './config'
 import extractMetadata from './metadata'
 import prepareDocument from './prepare'
+import { extendConfigData } from 'docere'
 
-const docereConfigData: DocereConfigData = {
+const docereConfigDataRaw: DocereConfigDataRaw = {
 	config,
 	extractMetadata,
 	prepareDocument,
 }
 
-export default docereConfigData
+export default extendConfigData(docereConfigDataRaw)
