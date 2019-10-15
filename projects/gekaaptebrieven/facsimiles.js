@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 const extractFacsimiles = function extractFacsimiles(doc) {
     const attr = 'facs';
     const selector = `pb[${attr}]`;
@@ -9,4 +11,4 @@ const extractFacsimiles = function extractFacsimiles(doc) {
         return { id, path: [path] };
     });
 };
-export default extractFacsimiles;
+exports.default = extractFacsimiles;

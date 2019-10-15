@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 const prepareDocument = function prepareDocument(doc) {
     const typeById = new Map();
     doc.querySelectorAll('w').forEach(el => {
@@ -26,4 +28,4 @@ const prepareDocument = function prepareDocument(doc) {
     }
     return doc;
 };
-export default prepareDocument;
+exports.default = prepareDocument;

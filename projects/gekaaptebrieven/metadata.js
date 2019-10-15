@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 const extractMetadata = function extractMetadata(doc) {
     const selector = "meta";
     let els = doc.querySelectorAll(selector);
@@ -18,4 +20,4 @@ const extractMetadata = function extractMetadata(doc) {
     split('languages');
     return metadata;
 };
-export default extractMetadata;
+exports.default = extractMetadata;

@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 const extractMetadata = function extractMetadata(doc) {
     const selectors = [
         'country', 'settlement', 'institution', 'repository', 'idno'
@@ -9,4 +11,4 @@ const extractMetadata = function extractMetadata(doc) {
     });
     return metadata;
 };
-export default extractMetadata;
+exports.default = extractMetadata;

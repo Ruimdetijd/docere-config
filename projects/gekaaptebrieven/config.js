@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 const config = {
     slug: 'gekaaptebrieven',
     title: 'Gekaapte brieven',
@@ -129,4 +131,4 @@ const config = {
         },
     ]
 };
-export default config;
+exports.default = config;

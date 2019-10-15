@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 const extractFacsimiles = function extractFacsimiles(doc) {
     return Array.from(doc.querySelectorAll('facsimile zone'))
         .map(zone => {
@@ -13,4 +15,4 @@ const extractFacsimiles = function extractFacsimiles(doc) {
     })
         .filter(facs => facs != null);
 };
-export default extractFacsimiles;
+exports.default = extractFacsimiles;

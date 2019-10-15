@@ -1,12 +1,14 @@
-import config from './config';
-import extractMetadata from './metadata';
-import extractNotes from './notes';
-import extractFacsimiles from './facsimiles';
-import { extendConfigData } from 'docere';
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const config_1 = require("./config");
+const metadata_1 = require("./metadata");
+const notes_1 = require("./notes");
+const facsimiles_1 = require("./facsimiles");
+const docere_1 = require("docere");
 const docereConfigDataRaw = {
-    config,
-    extractMetadata,
-    extractNotes,
-    extractFacsimiles,
+    config: config_1.default,
+    extractMetadata: metadata_1.default,
+    extractNotes: notes_1.default,
+    extractFacsimiles: facsimiles_1.default,
 };
-export default extendConfigData(docereConfigDataRaw);
+exports.default = docere_1.extendConfigData(docereConfigDataRaw);

@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 const config = {
     slug: 'kranten1700',
     title: 'Kranten 1700',
@@ -84,4 +86,4 @@ const config = {
         },
     ]
 };
-export default config;
+exports.default = config;

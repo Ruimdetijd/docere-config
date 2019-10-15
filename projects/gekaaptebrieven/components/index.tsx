@@ -1,6 +1,5 @@
 import * as React from 'react'
 import { constants, components } from 'docere'
-import styled from '@emotion/styled';
 
 const getPb = components.getPb
 
@@ -30,10 +29,7 @@ const getComponents: GetComponents = function(config) {
 			}
 		})
 
-	return {
-		pb: getPb((props) => props.facs),
-		ner: styled.div`color: blue;`
-	}
+	return components2
 }
 
 export default getComponents

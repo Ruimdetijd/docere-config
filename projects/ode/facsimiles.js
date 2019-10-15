@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 const extractFacsimiles = function extractFacsimiles(doc) {
     return Array.from(doc.querySelectorAll('pb'))
         .map(graphic => {
@@ -9,4 +11,4 @@ const extractFacsimiles = function extractFacsimiles(doc) {
     })
         .filter(ef => ef != null);
 };
-export default extractFacsimiles;
+exports.default = extractFacsimiles;

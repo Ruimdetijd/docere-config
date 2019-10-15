@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 function toExtractedNote(el) {
     return {
         n: el.getAttribute('n'),
@@ -10,4 +12,4 @@ const extractNotes = function extractNotes(doc) {
         editorNotes: Array.from(doc.querySelectorAll('div[type="notes"] > note')).map(toExtractedNote),
     };
 };
-export default extractNotes;
+exports.default = extractNotes;

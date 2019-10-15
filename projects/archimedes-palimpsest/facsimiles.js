@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 const extractFacsimiles = function extractFacsimiles(doc) {
     const path = Array.from(doc.querySelectorAll('facsimile graphic'))
         .map(graphic => {
@@ -18,4 +20,4 @@ const extractFacsimiles = function extractFacsimiles(doc) {
             path,
         }];
 };
-export default extractFacsimiles;
+exports.default = extractFacsimiles;

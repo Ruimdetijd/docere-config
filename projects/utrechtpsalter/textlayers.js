@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 const extractTextLayers = function extractTextLayers(doc) {
     return Array.from(doc.querySelectorAll('transcription'))
         .reduce((prev, curr) => {
@@ -5,4 +7,4 @@ const extractTextLayers = function extractTextLayers(doc) {
         return prev;
     }, {});
 };
-export default extractTextLayers;
+exports.default = extractTextLayers;

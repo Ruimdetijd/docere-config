@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 const config = {
     slug: 'vangogh',
     title: 'Van Gogh Letters',
@@ -74,4 +76,4 @@ const config = {
         },
     ]
 };
-export default config;
+exports.default = config;

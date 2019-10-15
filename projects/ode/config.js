@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 const config = {
     slug: 'ode',
     title: 'Oralia Diacrónica del Español',
@@ -11,4 +13,4 @@ const config = {
     pages: [],
     textdata: [],
 };
-export default config;
+exports.default = config;

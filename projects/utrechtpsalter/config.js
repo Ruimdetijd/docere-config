@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 const config = {
     slug: 'utrechtpsalter',
     title: 'Utrecht Psalter',
@@ -28,4 +30,4 @@ const config = {
         },
     ]
 };
-export default config;
+exports.default = config;

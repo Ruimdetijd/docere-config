@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 const prepareDocument = function prepareDocument(doc) {
     doc.querySelectorAll('ne-start').forEach(el => {
         const range = new Range();
@@ -11,4 +13,4 @@ const prepareDocument = function prepareDocument(doc) {
     doc.querySelectorAll('ne-end').forEach(el => el.parentElement.removeChild(el));
     return doc;
 };
-export default prepareDocument;
+exports.default = prepareDocument;

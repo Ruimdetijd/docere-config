@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 const config = {
     slug: 'archimedes-palimpsest',
     title: 'Archimedes Palimpsest',
@@ -6,4 +8,4 @@ const config = {
     pages: [],
     textdata: [],
 };
-export default config;
+exports.default = config;
